@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "An add-on that lets you easily count blocks within a selected area.",
+    "name": "BlockCounter[BP] 1.0.0ver",
+    "uuid":"9823ba00-b472-47d6-a71b-1847b5ef9b28",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules":
+    [
+      {
+        "description": "Scripting",
+          "type": "script",
+          "uuid": "9a2b7058-0ef7-418d-9114-d36901439797",
+          "entry": "scripts/main.js",
+          "version": [1, 0, 0]
+      }
+    ],
+  "dependencies": [
+    {
+      "uuid":"6f6274fa-d768-43af-8fff-474ade989c29",
+      "version": [1, 0, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.5.0-beta"
+    }
+ ],
+ "metadeta": [
+  {
+    "authors": "Teryacotta",
+    "license": "MIT"
+  }
+ ]
+}

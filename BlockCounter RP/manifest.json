@@ -1,0 +1,24 @@
+{
+ "format_version": 2,
+ "header": {
+   "description": "pack.description",
+   "name": "BlockCounter[RP] 1.0.0ver",
+   "uuid":"6f6274fa-d768-43af-8fff-474ade989c29",
+   "version": [1, 0, 0],
+   "min_engine_version": [1, 20, 0]
+  },
+ "modules": [
+   {
+     "description": "Resource",
+     "type": "resources",
+     "uuid": "09edd493-5e2d-4035-853c-03b462283d9f",
+     "version": [1, 0, 0]
+   }
+ ],
+ "metadeta": [
+  {
+    "authors": "Teryacotta",
+    "license": "MIT"
+  }
+ ]
+}
