@@ -1,4 +1,4 @@
-# BlockCounter
+# Minecraft BlockCounter
 範囲内のブロックを簡単に数えれるアドオンです
 
 # 使い方
